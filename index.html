@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- card link -->
+    <link href="./card.html" />
+
     <!-- Google font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +34,7 @@
     <!-- Header section -->
     <section class="bg-[#fff] justify-center items-center flex">
       <nav
-        class="justify-around px-20 hidden lg:display md:display mt-7 mb-7 bg-[#F85559] py-2 rounded-full w-[90%] lg:flex md:ml-[30%] lg:ml-0 items-center"
+        class="justify-around px-20 hidden sm:display lg:display md:display mt-7 mb-7 bg-[#F85559] py-2 rounded-full w-[90%] lg:flex md:ml-[30%] lg:ml-0 items-center"
       >
         <div
           class="lg:flex-1 flex ml-[25%] md:ml-0 gap-3 Google-font text-[#fff]"
@@ -79,7 +82,7 @@
       </nav>
       <!-- mobile devise design -->
       <nav
-        class="justify-between flex w-full lg:hidden md:hidden mt-7 mb-7 bg-[#F85559] py-2 px-10 rounded-full"
+        class="justify-between flex w-full lg:hidden md:hidden mt-7 mb-7 bg-[#F85559] py-2 px-10 mx-2 rounded-full"
       >
         <div class="flex flex-1 Google-font text-2xl font-bold text-[#fff]">
           <div class="flex items-center">
@@ -91,6 +94,870 @@
           <img class="w-10 h-10" src="./images/Three-line.png" alt="" />
         </div>
       </nav>
+    </section>
+
+    <!-- Slider Section -->
+    <section class="lg:px-20 bg-[#fff] lg:py-14 p-2">
+      <div class="carousel w-full">
+        <!-- sloder1 -->
+        <div id="slide1" class="carousel-item relative mt-7 w-full">
+          <div
+            class="hero bg-cover rounded-lg bg-no-repeat min-h-screen bg-gradient-to-r from-[#6e6d6d] to-[#111]"
+            style="background-image: url(./images/banner1.png)"
+          >
+            <div class="hero-content text-center text-neutral-content">
+              <div class="lg:p-40 Google-font md:p-40 p-10">
+                <h1 class="mb-5 text-3xl lg:text-5xl font-extrabold text-white">
+                  Exotic tastes at your <br />doorstep
+                </h1>
+                <p class="mb-5 text-[#E7E7E7]">
+                  We supply highly quality organic products
+                </p>
+              </div>
+            </div>
+            <button
+              class="bg-[#F85559] px-4 py-2 rounded-md mt-52 text-white text-lg font-semibold"
+              type="submit"
+            >
+              Shop Now
+            </button>
+          </div>
+
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slider-2 -->
+        <div id="slide2" class="carousel-item relative mt-7 w-full">
+          <div
+            class="hero bg-cover rounded-lg bg-no-repeat min-h-screen bg-gradient-to-r from-[#6e6d6d] to-[#111]"
+            style="background-image: url(./images/banner2.png)"
+          >
+            <div class="hero-content text-center text-neutral-content">
+              <div class="lg:p-40 md:p-40 Google-font p-10">
+                <h1 class="mb-5 text-3xl lg:text-5xl font-extrabold text-white">
+                  Exotic tastes at your <br />doorstep
+                </h1>
+                <p class="mb-5 text-[#E7E7E7]">
+                  We supply highly quality organic products
+                </p>
+              </div>
+            </div>
+            <button
+              class="bg-[#F85559] px-4 py-2 rounded-md mt-52 text-white text-lg font-semibold"
+              type="submit"
+            >
+              Shop Now
+            </button>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slider-3 -->
+        <div id="slide3" class="carousel-item relative mt-7 w-full">
+          <div
+            class="hero bg-cover rounded-lg bg-no-repeat min-h-screen bg-gradient-to-r from-[#6e6d6d] to-[#111]"
+            style="background-image: url(./images/banner3.png)"
+          >
+            <div class="hero-content text-center text-neutral-content">
+              <div class="lg:p-40 Google-font md:p-40 p-10">
+                <h1 class="mb-5 text-3xl lg:text-5xl font-extrabold text-white">
+                  Exotic tastes at your<br />
+                  doorstep
+                </h1>
+
+                <p class="mb-5 text-[#E7E7E7]">
+                  We supply highly quality organic products
+                </p>
+              </div>
+            </div>
+            <button
+              class="bg-[#F85559] px-4 py-2 rounded-md mt-52 text-white text-lg font-semibold"
+              type="submit"
+            >
+              Shop Now
+            </button>
+          </div>
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <!-- slider-4 -->
+        <div id="slide4" class="carousel-item relative mt-7 w-full">
+          <div
+            class="hero bg-cover rounded-lg bg-no-repeat min-h-screen bg-gradient-to-r from-[#6e6d6d] to-[#111]"
+            style="background-image: url(./images/banner4.png)"
+          >
+            <div class="hero-content text-center text-neutral-content">
+              <div class="lg:p-40 Google-font md:p-40 p-10">
+                <h1 class="mb-5 text-3xl lg:text-5xl font-extrabold text-white">
+                  Exotic tastes at your <br />doorstep
+                </h1>
+                <p class="mb-5 text-[#E7E7E7]">
+                  We supply highly quality organic products
+                </p>
+              </div>
+            </div>
+            <button
+              class="bg-[#F85559] px-4 py-2 rounded-md mt-52 text-white text-lg font-semibold"
+              type="submit"
+            >
+              Shop Now
+            </button>
+          </div>
+
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <!-- fruits Types -->
+      <div class="flex justify-center md:mt-16 lg:mt-0 items-center">
+        <div
+          class="lg:absolute shadow-sm shadow-[#383838] md:absolute grid rounded-2xl gap-3 px-10 py-3 lg:bg-[#fff] md:bg-[#fff] bg-[#F85559] mt-6 lg:mt-0 md:mt-0 lg:grid-cols-5 grid-cols-1 md:grid-cols-3 w-[70%]"
+        >
+          <div class="text-center">
+            <img src="./images/fruit1.png" alt="" />
+            <p
+              class="Google-font text-xl font-medium lg:text-[#121212] text-[#fff] md:text-[#121212]"
+            >
+              Strawberry
+            </p>
+          </div>
+          <div class="text-center">
+            <img src="./images/fruit2.png" alt="" />
+            <p
+              class="Google-font text-xl font-medium lg:text-[#121212] text-[#fff] md:text-[#121212]"
+            >
+              Orange
+            </p>
+          </div>
+          <div class="text-center">
+            <img src="./images/fruit3.png" alt="" />
+            <p
+              class="Google-font text-xl font-medium lg:text-[#121212] text-[#fff] md:text-[#121212]"
+            >
+              Mango
+            </p>
+          </div>
+          <div class="text-center">
+            <img src="./images/fruit4.png" alt="" />
+            <p
+              class="Google-font text-xl font-medium lg:text-[#121212] text-[#fff] md:text-[#121212]"
+            >
+              Strawberry
+            </p>
+          </div>
+          <div class="text-center">
+            <img src="./images/fruit5.png" alt="" />
+            <p
+              class="Google-font text-xl font-medium lg:text-[#121212] text-[#fff] md:text-[#121212]"
+            >
+              Mango
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deal of the day Section  -->
+    <section class="lg:px-20 bg-[#fff] lg:py-14 md:py-28 px-5 p-2">
+      <div class="lg:flex md:flex gap-[5%] mt-20">
+        <div class="flex-1 w-[90%] space-y-4">
+          <h1 class="text-5xl font-extrabold Google-font text-[#000]">
+            Deal of the day
+          </h1>
+          <p class="font-medium text-[#121212] Google-font">
+            Contrary to popular belief, is not simply random text. It has roots
+            in a piece of classical Latin literature from 45 BC, making it over
+            2000 years old.
+          </p>
+        </div>
+
+        <div class="lg:flex md:flex flex-1 w-[90%] gap-5">
+          <div class="flex-1 text-center space-y-2">
+            <div class="flex items-center">
+              <h1 class="text-5xl ml-7 text-[#000] font-extrabold Google-font">
+                22
+              </h1>
+              <img class="w-10 h-10 ml-6" src="./images/dots.png" alt="" />
+            </div>
+            <div>
+              <p class="Google-font text-2xl font-medium text-[#121212]">
+                Days
+              </p>
+            </div>
+          </div>
+          <div class="flex-1 text-center space-y-2">
+            <div class="flex items-center">
+              <h1 class="text-5xl ml-6 text-[#000] font-extrabold Google-font">
+                12
+              </h1>
+              <img class="w-10 h-10 ml-6" src="./images/dots.png" alt="" />
+            </div>
+            <div>
+              <p class="Google-font text-2xl font-medium text-[#121212]">
+                Hours
+              </p>
+            </div>
+          </div>
+          <div class="flex-1 text-center space-y-2">
+            <div class="flex items-center">
+              <h1 class="text-5xl ml-5 text-[#000] font-extrabold Google-font">
+                45
+              </h1>
+              <img class="w-10 h-10 ml-6" src="./images/dots.png" alt="" />
+            </div>
+            <div>
+              <p class="Google-font text-2xl font-medium text-[#121212]">
+                Minutes
+              </p>
+            </div>
+          </div>
+          <div class="flex-1 text-center space-y-2">
+            <div class="flex items-center">
+              <h1 class="text-5xl ml-5 text-[#000] font-extrabold Google-font">
+                05
+              </h1>
+            </div>
+            <div>
+              <p class="Google-font text-2xl font-medium text-[#121212]">
+                Seconds
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:flex  space-y-4 px-5 mt-16 gap-6">
+        <!-- card-1  -->
+        <div
+          class="px-3 flex-1 flex-col flex py-5 shadow-sm space-y-7 justify-center items-center shadow-[#686767]"
+        >
+          <img src="./images/fruit6.png" alt="" />
+          <h2 class="font-bold text-2xl text-[#121212] Google-font">
+            12.90$ - 18.85$
+          </h2>
+          <div class="w-[90%] h-1 bg-[#979797]"></div>
+          <h3 class="text-[#121212] font-semibold Google-font">Apple</h3>
+
+          <div class="rating space-x-2">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+          </div>
+          <!-- The button to open modal -->
+          <a
+            class="text-[#F85559] btn bg-[#fff] hover:bg-[#fff] border-none shadow-sm shadow-[#d6d6d6] text-lg font-bold Google-font"
+            href="#apple"
+          >
+            Details</a
+          >
+
+          <!-- This is popup section  -->
+          <div class="modal" id="apple">
+            <div class="modal-box bg-[#fff]">
+              <div
+                class="px-3 flex-1 flex-col flex py-2 space-y-3 justify-center items-center"
+              >
+                <img src="./images/fruit6.png" alt="" />
+                <h3 class="text-[#121212] font-extrabold text-5xl Google-font">
+                  Apple
+                </h3>
+
+                <p class="font-medium Google-font px-5">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+
+                <div class="rating space-x-2">
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+                <div
+                  class="modal-action lg:flex md:flex justify-around w-full px-10 items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn hover:bg-[#F85559] hover:text-[#fff] hover:border-none bg-[#fff] text-[#F85559] border border-[#F85559]"
+                  >
+                    Close
+                  </a>
+
+                  <a
+                    class="lg:text-lg font-bold Google-font text-[#fff] bg-[#F85559] px-9 py-4 rounded-lg"
+                    href="#apple"
+                  >
+                    Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-2  -->
+        <div
+          class="px-3 flex-1 flex-col flex py-5 shadow-sm space-y-7 justify-center items-center shadow-[#686767]"
+        >
+          <img src="./images/fruit7.png" alt="" />
+          <h2 class="font-bold text-2xl text-[#121212] Google-font">
+            12.90$ - 18.85$
+          </h2>
+          <div class="w-[90%] h-1 bg-[#979797]"></div>
+          <h3 class="text-[#121212] font-semibold Google-font">Orange</h3>
+
+          <div class="rating space-x-2">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+          </div>
+          <!-- The button to open modal -->
+          <a
+            class="text-[#F85559] btn bg-[#fff] hover:bg-[#fff] border-none shadow-sm shadow-[#d6d6d6] text-lg font-bold Google-font"
+            href="#Orange"
+          >
+            Details</a
+          >
+
+          <!-- This is popup section  -->
+          <div class="modal" id="Orange">
+            <div class="modal-box bg-[#fff]">
+              <div
+                class="px-3 flex-1 flex-col flex py-2 space-y-3 justify-center items-center"
+              >
+                <img src="./images/fruit7.png" alt="" />
+                <h3 class="text-[#121212] font-extrabold text-5xl Google-font">
+                  Orange
+                </h3>
+
+                <p class="font-medium Google-font px-5">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+
+                <div class="rating space-x-2">
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+                <div
+                  class="modal-action lg:flex md:flex justify-around w-full px-10 items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn hover:bg-[#F85559] hover:text-[#fff] hover:border-none bg-[#fff] text-[#F85559] border border-[#F85559]"
+                  >
+                    Close
+                  </a>
+
+                  <a
+                    class="lg:text-lg font-bold Google-font text-[#fff] bg-[#F85559] px-9 py-4 rounded-lg"
+                    href="#apple"
+                  >
+                    Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-3  -->
+        <div
+          class="px-3 flex-1 flex-col flex py-5 shadow-sm space-y-7 justify-center items-center shadow-[#686767]"
+        >
+          <img src="./images/fruit8.png" alt="" />
+          <h2 class="font-bold text-2xl text-[#121212] Google-font">
+            12.90$ - 18.85$
+          </h2>
+          <div class="w-[90%] h-1 bg-[#979797]"></div>
+          <h3 class="text-[#121212] font-semibold Google-font">Red Dragon</h3>
+
+          <div class="rating space-x-2">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+          </div>
+          <!-- The button to open modal -->
+          <a
+            class="text-[#F85559] btn bg-[#fff] hover:bg-[#fff] border-none shadow-sm shadow-[#d6d6d6] text-lg font-bold Google-font"
+            href="#dragon"
+          >
+            Details</a
+          >
+
+          <!-- This is popup section  -->
+          <div class="modal" id="dragon">
+            <div class="modal-box bg-[#fff]">
+              <div
+                class="px-3 flex-1 flex-col flex py-2 space-y-3 justify-center items-center"
+              >
+                <img src="./images/fruit8.png" alt="" />
+                <h3 class="text-[#121212] font-extrabold text-5xl Google-font">
+                  Red Dragon
+                </h3>
+
+                <p class="font-medium Google-font px-5">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+
+                <div class="rating space-x-2">
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+                <div
+                  class="modal-action lg:flex md:flex justify-around w-full px-10 items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn hover:bg-[#F85559] hover:text-[#fff] hover:border-none bg-[#fff] text-[#F85559] border border-[#F85559]"
+                  >
+                    Close
+                  </a>
+
+                  <a
+                    class="lg:text-lg font-bold Google-font text-[#fff] bg-[#F85559] px-9 py-4 rounded-lg"
+                    href="#apple"
+                  >
+                    Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-4  -->
+        <div
+          class="px-3 flex-1 flex-col flex py-5 shadow-sm space-y-7 justify-center items-center shadow-[#686767]"
+        >
+          <img src="./images/fruit9.png" alt="" />
+          <h2 class="font-bold text-2xl text-[#121212] Google-font">
+            12.90$ - 18.85$
+          </h2>
+          <div class="w-[90%] h-1 bg-[#979797]"></div>
+          <h3 class="text-[#121212] font-semibold Google-font">Banana</h3>
+
+          <div class="rating space-x-2">
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+              checked
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+            <input
+              type="radio"
+              name="rating-2"
+              class="mask mask-star-2 bg-orange-400"
+            />
+          </div>
+          <!-- The button to open modal -->
+          <a
+            class="text-[#F85559] btn bg-[#fff] hover:bg-[#fff] border-none shadow-sm shadow-[#d6d6d6] text-lg font-bold Google-font"
+            href="#banana"
+          >
+            Details</a
+          >
+
+          <!-- This is popup section  -->
+          <div class="modal" id="banana">
+            <div class="modal-box bg-[#fff]">
+              <div
+                class="px-3 flex-1 flex-col flex py-2 space-y-3 justify-center items-center"
+              >
+                <img src="./images/fruit9.png" alt="" />
+                <h3 class="text-[#121212] font-extrabold text-5xl Google-font">
+                  banana
+                </h3>
+
+                <p class="font-medium Google-font px-5">
+                  Professional employees are there for you to pick the most
+                  amazing and fresh fruits.
+                </p>
+
+                <div class="rating space-x-2">
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    class="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
+                <div
+                  class="modal-action lg:flex md:flex justify-around w-full px-10 items-center"
+                >
+                  <a
+                    href="#"
+                    class="btn hover:bg-[#F85559] hover:text-[#fff] hover:border-none bg-[#fff] text-[#F85559] border border-[#F85559]"
+                  >
+                    Close
+                  </a>
+
+                  <a
+                    class="lg:text-lg font-bold Google-font text-[#fff] bg-[#F85559] px-9 py-4 rounded-lg"
+                    href="#apple"
+                  >
+                    Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:px-[40%] md:px-[40%] px-[20%] mt-10">
+        <div
+          class=" flex justify-center lg:py-6 md:py-4 py-3 rounded-lg bg-[#F85559] items-center Google-font text-[#fff] text-xl font-extrabold"
+        >
+          <button type="submit">Shop All</button>
+        </div>
+      </div>
+    </section>
+    <!-- banner section 1 -->
+    <section class="lg:px-20 bg-[#fff] lg:py-14 p-2">
+      <div
+        class="hero bg-cover rounded-lg bg-no-repeat min-h-screen bg-gradient-to-r from-[#6e6d6d] to-[#111]"
+        style="background-image: url(./images/banner1.png)"
+      >
+        <div class="hero-content text-center text-neutral-content">
+          <div class="lg:p-20 md:p-20 p-10">
+            <h1
+              class="mb-5 text-3xl lg:text-5xl font-extrabold text-white Google-font"
+            >
+              Meet the team section
+            </h1>
+            <p class="mb-5 Google-font font-medium lg:px-20  text-[#E7E7E7]">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+            <div class="lg:flex justify-center items-center gap-5 w-full">
+              <div
+                class="text-center flex flex-col justify-center items-center py-8 space-y-3 px-4"
+              >
+                <div
+                  class="w-32 h-32 flex justify-center items-center rounded-full bg-[#fff]"
+                >
+                  <img class="w-28 h-28" src="./images/member1.png" alt="" />
+                </div>
+                <h3 class="text-2xl font-bold text-[#fff] Google-font">
+                  Awlad Hossain
+                </h3>
+                <p class="Google-font text-[#fff] font-medium">Fruits Expert</p>
+                <div class="flex space-x-3 justify-center items-center">
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img
+                      class="w-6 h-6"
+                      src="./images/facebook-app-symbol.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/twitter.png" alt="" />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center flex flex-col justify-center items-center py-8 space-y-3 px-4"
+              >
+                <div
+                  class="w-32 h-32 flex justify-center items-center rounded-full bg-[#fff]"
+                >
+                  <img class="w-28 h-28" src="./images/member2.png" alt="" />
+                </div>
+                <h3 class="text-2xl font-bold text-[#fff] Google-font">
+                  Safia Chowdhury
+                </h3>
+                <p class="Google-font text-[#fff] font-medium">Fruits Expert</p>
+                <div class="flex space-x-3 justify-center items-center">
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img
+                      class="w-6 h-6"
+                      src="./images/facebook-app-symbol.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/twitter.png" alt="" />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center flex flex-col justify-center items-center py-8 space-y-3 px-4"
+              >
+                <div
+                  class="w-32 h-32 flex justify-center items-center rounded-full bg-[#fff]"
+                >
+                  <img class="w-28 h-28" src="./images/member3.png" alt="" />
+                </div>
+                <h3 class="text-2xl font-bold text-[#fff] Google-font">
+                  Rokib Hossain
+                </h3>
+                <p class="Google-font text-[#fff] font-medium">Fruits Expert</p>
+                <div class="flex space-x-3 justify-center items-center">
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img
+                      class="w-6 h-6"
+                      src="./images/facebook-app-symbol.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/twitter.png" alt="" />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="text-center flex flex-col justify-center items-center py-8 space-y-3 px-4"
+              >
+                <div
+                  class="w-32 h-32 flex justify-center items-center rounded-full bg-[#fff]"
+                >
+                  <img class="w-28 h-28" src="./images/member4.png" alt="" />
+                </div>
+                <h3 class="text-2xl font-bold text-[#fff] Google-font">
+                  Chaity
+                </h3>
+                <p class="Google-font text-[#fff] font-medium">Fruits Expert</p>
+                <div class="flex space-x-3 justify-center items-center">
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img
+                      class="w-6 h-6"
+                      src="./images/facebook-app-symbol.png"
+                      alt=""
+                    />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/twitter.png" alt="" />
+                  </div>
+                  <div
+                    class="w-10 h-10 flex justify-center items-center rounded-full bg-[#F85559]"
+                  >
+                    <img class="w-6 h-6" src="./images/linkedin.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
